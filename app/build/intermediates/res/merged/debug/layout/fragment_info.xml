@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.neurala.roboscope.settingfragment.HomeFragment "
+    android:layout_margin="8dp"
+    android:background="@android:color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/InfoTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+
+            android:textSize="15sp"
+            android:textColor="@android:color/black"/>
+        <ImageView
+            android:id ="@+id/InfoImage"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="8dp"
+            android:scaleType="centerCrop"/>
+        <TextView
+            android:id="@+id/InfoPubDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_margin="8dp"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:id="@+id/InfoDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:layout_margin="8dp"
+            android:textColor="@android:color/black"/>
+        <Button
+            android:id="@+id/InfoLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textSize="13sp"
+            android:background="#0000"
+            android:textColor="@android:color/holo_blue_bright"/>
+        <Button
+            android:id="@+id/InfoGuide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textSize="13sp"
+            android:textColor="@android:color/holo_blue_bright"
+            android:background="#0000"/>
+
+    </LinearLayout>
+</FrameLayout>

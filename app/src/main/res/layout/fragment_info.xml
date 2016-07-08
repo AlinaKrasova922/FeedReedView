@@ -1,0 +1,65 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:background="@android:color/white"
+    tools:context="com.neurala.roboscope.settingfragment.HomeFragment ">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/InfoTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/InfoImage"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="8dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/InfoPubDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/InfoDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textColor="@android:color/black"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/InfoLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="#0000"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/InfoGuide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="#0000"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+</FrameLayout>

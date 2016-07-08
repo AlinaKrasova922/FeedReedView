@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FeedReedView</string>
+    <string name="title_activity_info">Feed Detailed Info View</string>
+    <string name="action_settings">Settings</string>
+</resources>
